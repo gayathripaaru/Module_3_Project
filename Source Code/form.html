@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+<body background="Gallery/black.jpg ">
+  <form action="PHP/form.php" method="POST">
+    <h1 id="register">Register Here</h1>
+    <img id="forimg" src="Gallery/forms2.jpg" width="540px" height="620px">
+          <div class="container">
+            
+            <div id="form">
+            <input  type="text" placeholder ="Name" name="name"  required><br>
+      
+            
+            <input  type="text" placeholder="Address" name="addre" required><br>
+      
+            
+            <input  type="text" placeholder=Pincode name="pin" required><br>
+            <input  type="text" placeholder=Street name="street" required><br>
+            <input  type="text" placeholder=City name="city" required><br>
+            <div class="selection">
+            <select id="selection">
+              <option value="0">District</option>
+          <option value="1">Trivandrum</option>
+        <option value="2">Kollam</option>
+    <option value="3">Pathanamthitta</option>
+    <option value="4">Alappuzha</option>
+    <option value="5">Kottayam</option>
+    <option value="6">Idukki</option>
+    <option value="7">Ernakulam</option>
+    <option value="8">Thrissur</option>
+    <option value="9">Palakad</option>
+    <option value="10">Kozhikode</option>
+    <option value="11">Wayanad</option>
+    <option value="12">Kannur</option>
+    <option value="13">Kasargod</option>
+            </select></div><br>
+            <input  type="email" placeholder=Email name="email" required><br>
+         
+            <input  type="text" placeholder=Mobile name="mob" required>
+            <br>
+            <div class="clearfix">
+              <button type="reset"  class="cancelbtn"><a href="Home.html">Cancel</a></button>
+              <button type="submit" name="register" class="signupbtn">Register</button>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    
+    </form>
+  
+      
+    
+</body>
+</html>
